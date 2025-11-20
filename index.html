@@ -1,9 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Document</title>
-	</head>
-	<body></body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Developer's conference</title>
+    <link rel="stylesheet" href="./assets/stylesheets/main.css" />
+    <link rel="icon" href="./assets/images/icon.png" type="image/x-icon" />
+  </head>
+  <body>
+    <header id="top">
+      <div class="container flex-container">
+        <h1 class="logo"><a href="./index.html">dev conf</a></h1>
+        <nav>
+          <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./projects.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      
+            <!-- Hero section  -->
+        <section class="hero-section">
+          <div class="container">
+            <div class="hero-content">
+            <h2>Developer's Conference</h2>
+            <p>Join us for the upcoming developer's conference</p>
+            <a href="#contact" class="btn">contact us</a>
+          </div>
+          </div>
+        </section>
+
+        <!-- Speakers section  -->
+      <div class="container">
+        <section class="speakers-section">
+          <h2>Speakers</h2>
+          <p>Meet and learn from industry experts and developers, ranging from frontend to backend development</p>
+          <div class="speaker-cards">
+            <div class="speaker-card">
+            <img src="https://placehold.co/400" alt="Speaker 1" />
+            <div>
+              <h3>Ronald Chams</h3>
+              <p>Frontend Developer</p>
+            </div>
+          </div>
+          <div class="speaker-card">
+            <img src="https://placehold.co/400" alt="Speaker 2" />
+            <div>
+              <h3>Abisola Akintola</h3>
+              <p>Backend Developer</p>
+            </div>
+          </div>
+          <div class="speaker-card">
+            <img src="https://placehold.co/400" alt="Speaker 3" />
+            <div>
+              <h3>John Doe</h3>
+              <p>Full Stack Developer</p>
+            </div>
+          </div>
+        </section>
+         </div>
+
+
+  
+        <!-- Address section  -->
+        <section class="address-section" id="contact">
+          <div class="container">
+            <div class="address-info-container">
+            <address>
+              <h2>Address</h2>
+              <p>123 Main Street<br />Anytown, USA</p>
+              <p>Phone: (123) 456-7890</p>
+              <p>Email: 0MlL7@example.com</p>
+           </address>
+
+          <div>
+            <h2>Get in touch</h2>
+            <form action="/">
+              <div class="form-group">
+                  <label for="name">Name:</label>
+                  <input type="text" id="name" name="name" required/>
+              </div>
+              <div class="form-group">
+                  <label for="email">Email:</label>
+                  <input type="email" id="email" name="email" required/>
+              </div>
+              <div class="form-group">
+                  <label for="message">Message:</label>
+                  <textarea id="message" name="message" required></textarea>
+              </div>
+              <button type="submit">submit</button>
+            </form>
+          </div>
+          </div>
+
+
+          <div>
+              <h2>locate us</h2>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13333.654765631361!2d3.3364578048605646!3d6.506582189534405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b8d794d3fbdcd%3A0x55319f13e3ef2066!2sKilo%20Royal%20Hotel!5e0!3m2!1sen!2sqa!4v1758225574295!5m2!1sen!2sqa" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+          </div>
+        </section>
+
+        <div class="back-to-top">
+          <a href="#top">back to top</a>
+        </div>
+           </div>
+       
+    
+    </main>
+  </body>
 </html>
+ 
